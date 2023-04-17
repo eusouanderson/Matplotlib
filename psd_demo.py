@@ -93,7 +93,7 @@ plt.show()
 # processing toolbox that showed some difference at one time between
 # Matplotlib's and MATLAB's scaling of the PSD.
 
-fs = 1000
+fs = 2500
 t = np.linspace(0, 0.3, 301)
 A = np.array([2, 8]).reshape(-1, 1)
 f = np.array([150, 140]).reshape(-1, 1)
